@@ -1,0 +1,61 @@
+html,
+body{
+}
+
+.jumbotron{
+  background-image: url("../img/rainy-background.jpg");
+}
+
+.jumbo-box{
+  color: white;
+  padding-top: 200px;
+  padding-bottom: 200px;
+}
+
+.main-box{
+  padding-top: 30px;
+  margin-top: -30px;
+  background-color: #fff;
+  padding-bottom: 40px;
+}
+
+#temperature{
+  padding-top: 10px;
+  padding-bottom: 20px;
+  font-size: 60px;
+}
+
+#place{
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+
+#weather-description{
+  margin-top: -10px;
+}
+
+#c-to-f{
+  color: white;
+  background: linear-gradient(to right, #AF6327, #3E838E);
+}
+
+.grad-color{
+  background: -webkit-linear-gradient(to right, #3E838E, #AF6327));
+  background: -o-linear-gradient(to right, #3E838E #AF6327));
+  background: -moz-linear-gradient(to right, #3E838E, #AF6327));
+  background: linear-gradient(to right, #3E838E, #AF6327);
+}
+
+.footer{
+  padding-top: 10px;
+  background: #5A99E8;
+  background: -webkit-linear-gradient(to right, #3E838E, #AF6327));
+  background: -o-linear-gradient(to right, #3E838E #AF6327));
+  background: -moz-linear-gradient(to right #3E838E, #AF6327));
+  background: linear-gradient(to right, #3E838E, #AF6327);
+  color: #fff;
+}
+
+.footer a{
+  color:white;
+}
